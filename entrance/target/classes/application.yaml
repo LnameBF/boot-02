@@ -4,6 +4,3 @@ spring:
     hiddenmethod:
       filter:
         enabled: true
-  web:
-    resources:
-      add-mappings: true

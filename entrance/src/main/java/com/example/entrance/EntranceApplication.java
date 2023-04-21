@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@MapperScan("com.example")
 @ComponentScan(value = "com.example")
 public class EntranceApplication {
 

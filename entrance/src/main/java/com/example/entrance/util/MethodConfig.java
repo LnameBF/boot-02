@@ -4,9 +4,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
 
-@Configuration(proxyBeanMethods = false)
+//@Configuration(proxyBeanMethods = false)
 public class MethodConfig {
-    @Bean
+
+
     public HiddenHttpMethodFilter hiddenHttpMethodFilter() {
         HiddenHttpMethodFilter hidden = new HiddenHttpMethodFilter();
         hidden.setMethodParam("_m");
